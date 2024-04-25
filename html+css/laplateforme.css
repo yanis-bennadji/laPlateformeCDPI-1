@@ -1,0 +1,89 @@
+/* CSS For the body globally */
+
+body {
+    font-family: "League Spartan";
+    margin: 0;
+    padding: 0;
+}
+
+
+h1,p {
+    margin-left: 50px;
+    
+}
+/* CSS For the Header */
+
+
+
+.logoPlateforme {    /*CSS for the logo precisely */
+    width: 25vw;
+   
+}
+
+nav{                       /*What allows the logo + menu to be aligned */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.menu {                                 /*Color + size of the text */
+    text-decoration: none;
+    color: #666666;
+    font-size: 18px;
+    font-weight: bolder;
+
+}
+
+
+/* CSS For the footer */
+
+
+
+.footer {
+    display: flex;
+    
+    font-family: "Montserrat";
+    font-size: 15px;
+    background-color: #313131;
+    color: white;
+}
+
+.logoPlateforme2 {    
+    width: 20%;
+    margin: auto;    
+    margin-left: 37px;
+}
+
+.testMargin {
+    margin: 100px;
+    
+}
+
+.menu2 {                                 /*Color + size of the text */
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bolder;
+    font-family: "Montserrat";
+    list-style-type: none;
+    
+
+}
+
+.menu3  {
+    text-decoration: none;
+    color: white;
+    font-family: "Montserrat";
+    list-style-type: none;
+}
+
+
+
+
+/*CSS For accueil.html  */
+
+
+
+
