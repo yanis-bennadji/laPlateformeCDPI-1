@@ -10,53 +10,6 @@ body {
 
 
 
-.tete {
-    margin-left: 50%    ;
-    background-color: black;
-
-}
-
-main {
-    background-color: #0062FF;
-    color: white;
-    
-}
-
-.text-acc1 {
-    font-size: 50px;
-    color: white;
-    margin-left: 50px;
-    
-    
-}
-
-.text-acc2 {
-    font-family: 'Montserrat';
-    font-size: 25px;
-    margin-left: 50px;
-
-}
-
-.main-text-acc {
-    display: flex;
-    
-}
-
-.fleximg {
-    margin-left: 66px;
-
-    
-}
-
-.textglb {
-    width: 35%;
-    
-}
-
-.tete {
-    width: 40vw;
-}
-
 
 
 /* CSS For the Header */
@@ -132,9 +85,138 @@ nav{                       /*What allows the logo + menu to be aligned */
 
 /*CSS For accueil.html  */
 
+.tete {
+    margin-left: 50%    ;
+    background-color: black;
+
+}
 
 
 
-/* test pour le git push ptet */
+.text-acc1 {
+    font-size: 50px;
+    color: white;
+    margin-left: 50px;
+    
+    
+}
 
-/* deuxième test pc fixe vers portable */
+.text-acc2 {
+    font-family: 'Montserrat';
+    font-size: 25px;
+    margin-left: 50px;
+
+}
+
+.main-text-acc {
+    display: flex;
+    background-color: #0062FF;
+    color: white;
+    
+}
+
+.fleximg {
+    margin-left: 66px;
+
+    
+}
+
+.textglb {
+    width: 35%;
+    
+}
+
+.tete {
+    width: 40vw;
+}
+
+
+
+/* CSS for Executive Education */
+
+.h1Exec {
+    font-size: 50px;
+    
+}
+
+.text-exec {
+    margin-left: 50px;
+    font-size: 25px;
+}
+
+.amazon {
+    width: 75%;
+    
+    margin-top: 10%;
+}
+
+.main-text-exec {
+    display: flex;
+    flex-direction: row-reverse;
+
+    
+}
+
+.contact-button {
+    display: block;
+    width: 175px;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #FFCA4B;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 40px;
+}
+
+.bluelink {
+    text-decoration: none;
+    color: #0062FF;
+}
+
+.imgd2si {
+    width: 30%;
+}
+
+.graytext {
+    color: #666666;
+    font-size: 20px;
+}
+
+.graytext2 {
+    color: #666666;
+    font-size: 18px;
+    list-style: none;
+}
+
+.main-text-exec2 {
+   
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.flex-button-exec {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.exec-button {
+    display: block;
+    width: 175px;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #FFCA4B;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 40px;
+    font-size: 22px;
+}
+
+.margin-exec {
+    margin-left: 5%;
+}
