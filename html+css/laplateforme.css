@@ -4,17 +4,16 @@ body {
     font-family: "League Spartan";
     margin: 0;
     padding: 0;
-}
-
-
-h1,p {
-    margin-left: 50px;
     
 }
 
+
+
+
 .tete {
-    margin-left: 50%;
+    margin-left: 50%    ;
     background-color: black;
+
 }
 
 main {
@@ -26,24 +25,40 @@ main {
 .text-acc1 {
     font-size: 50px;
     color: white;
-    margin-right: 50%;
+    margin-left: 50px;
+    
     
 }
 
 .text-acc2 {
     font-family: 'Montserrat';
-    margin-right: 50%;
-    
     font-size: 25px;
-
-
+    margin-left: 50px;
 
 }
 
 .main-text-acc {
+    display: flex;
+    
+}
+
+.fleximg {
+    margin-left: 66px;
 
     
 }
+
+.textglb {
+    width: 35%;
+    
+}
+
+.tete {
+    width: 40vw;
+}
+
+
+
 /* CSS For the Header */
 
 
