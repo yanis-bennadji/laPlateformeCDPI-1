@@ -34,8 +34,16 @@ nav{                       /*What allows the logo + menu to be aligned */
     color: #666666;
     font-size: 18px;
     font-weight: bolder;
+    transition: all 0.3s ease; 
 
 }
+
+.menu:hover {                                 /*Color + size of the text */
+    transform: scale(1.1); 
+
+}
+
+
 
 
 /* CSS For the footer */
@@ -167,7 +175,26 @@ nav{                       /*What allows the logo + menu to be aligned */
     color: #fff;
     text-decoration: none;
     border-radius: 40px;
+    transition: all 0.3s ease; 
+
 }
+
+.contact-button:hover {
+    display: block;
+    width: 175px;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #FFCA4B;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 40px;
+    transform: scale(1.1); 
+
+
+}
+
+
 
 .bluelink {
     text-decoration: none;
@@ -215,8 +242,16 @@ nav{                       /*What allows the logo + menu to be aligned */
     text-decoration: none;
     border-radius: 40px;
     font-size: 22px;
+    transition: all 0.3s ease; 
+
 }
 
 .margin-exec {
     margin-left: 5%;
+}
+
+.exec-button:hover {
+
+    transform: scale(1.1); 
+
 }
